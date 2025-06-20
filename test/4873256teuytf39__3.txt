@@ -1,0 +1,1 @@
+text, black background, white text, english, centered, 1910x1080
