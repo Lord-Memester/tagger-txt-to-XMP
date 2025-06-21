@@ -9,4 +9,5 @@ python txt-to-xmp-sidecar.py -i <input_directory>
 ```
 
 * `-i`: Optional. Used to specify the input directory containing the `.txt` files. If unspecified, uses an "in" folder if found in the same directory as the python script. Otherwise yells at you. Probably.
+
 I didn't test that part.
