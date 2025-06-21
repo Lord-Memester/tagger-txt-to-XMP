@@ -14,7 +14,7 @@ This script takes a plaintext list of comma-separated tags relevant to an image 
 ## Usage
 
 ```bash
-python "txt to xmp sidecar.py" -i <input_directory>
+python "txt-to-xmp-sidecar.py" -i <input_directory>
 ```
 
 * `-i`: Optional. The input directory containing the `.txt` files. Defaults to an "in" directory within the same directory as the python script.
@@ -24,5 +24,5 @@ python "txt to xmp sidecar.py" -i <input_directory>
 To process all `.txt` files in the "test" directory:
 
 ```bash
-python "txt to xmp sidecar.py" -i test
+python "txt-to-xmp-sidecar.py" -i test
 ```
