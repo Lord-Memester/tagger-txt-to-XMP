@@ -17,7 +17,7 @@ This script takes a plaintext list of comma-separated tags relevant to an image 
 python "txt-to-xmp-sidecar.py" -i <input_directory>
 ```
 
-* `-i`: Optional. The input directory containing the `.txt` files. Defaults to an "in" directory within the same directory as the python script.
+* `-i`: Optional. The input directory containing the `.txt` files. Defaults to an "in" folder found in the same directory as the python script.
 
 ## Example
 
