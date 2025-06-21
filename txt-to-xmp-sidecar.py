@@ -3,6 +3,7 @@
 # I NEEDED THE TOOL AND DID NOT CONSIDER IT WORTH MY TIME TO LEARN HOW TO DO IT MYSELF.
 # I DO NOT PLAN ON DOING THIS REGULARLY.
 # I APOLOGIZE BOTH TO YOU, THE USER, AND MYSELF FOR THE RELIABILITY I HAVE (HOPEFULLY ONLY TEMPORARILY) ROBBED MYSELF OF.
+# I HAVE MADE SOME MODIFICATIONS TO THE SCRIPT, AS I NOTICED A FEW ERRORS OR UNNECESSARY ACTIONS BEING MADE, SO IT IS AT LEAST NOT COMPLETELY VOID OF HUMAN INPUT.
 
 import os
 import glob
@@ -38,8 +39,8 @@ def create_xmp(tags):
         '\n<?xpacket end="w"?>'
 
 def normalize_tags(text):
-    # Split by comma or newline, strip whitespace
-    raw_tags = [t.strip() for t in text.replace('\n', ',').split(',')]
+    # Split by comma, strip whitespace
+    raw_tags = [t.strip() for t in text.split(',')]
     return [tag for tag in raw_tags if tag]
 
 def process_directory(directory):
